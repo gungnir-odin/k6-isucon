@@ -28,7 +28,7 @@ export const options = {
             vus: 2, // 同時実行数
             duration: "30s", // 30秒間実行する
             exec: "postimage", // 実行するシナリオの関数名
-            maxDuration: "12s", // 最大実行時間
+            startTime: "12s", // 12秒後に実行開始
         },
     },
 };
