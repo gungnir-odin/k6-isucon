@@ -1,7 +1,7 @@
 // 複数のシナリオを組み合わせたシナリオを実行する
-import initialize from "./initialize";
-import comment from "./comment";
-import postimage from "./postimage";
+import initialize from "./initialize.js";
+import comment from "./comment.js";
+import postimage from "./postimage.js";
 
 // k6が各関数を実行できるようにexport
 export { initialize, comment, postimage};
